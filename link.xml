@@ -1,0 +1,8 @@
+<linker>
+    <assembly fullname="System.Core">
+        <type fullname="System.Linq.Expressions.Interpreter.LightLambda" preserve="all" />
+    </assembly>
+	<assembly fullname="AppFeedback" ignoreIfMissing="1">
+    <namespace fullname="AppFeedback" preserve="all"/>
+</assembly>
+</linker>
