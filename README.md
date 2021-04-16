@@ -56,3 +56,13 @@ Send the data
 ```
 AppFeedback.Send(request, OnAppFeedbackSuccess, OnAppFeedbackFailure);
 ```
+
+**Please note:**
+
+The send will happen async to not block main thread. The Success and Failure callbacks will be called back on main thread.
+If you are going to close/end the application immediately afterwards, it may not complete sending the feedback so use the:
+
+```
+AppFeedback.Flush();
+```
+function to force wait for all current send tasks. Remember, this will block the main thread until it is finished sending the data.
