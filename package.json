@@ -1,0 +1,9 @@
+{
+    "name": "com.appfeedback.unitysdk",
+    "displayName": "AppFeedback SDK",
+    "version": "1.0.0",
+    "unity": "2019.2",
+    "description": "SDK implementation for AppFeedback",
+    "keywords": ["Feedback", "Utility"],
+    "category": "Tools"
+}
