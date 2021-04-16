@@ -44,12 +44,12 @@ Prepare some callbacks:
 ```c#
 static private void OnAppFeedbackSuccess()
 {
-    Console.WriteLine("Success");
+    Debug.Log("Success");
 }
 
 static private void OnAppFeedbackFailure(AppFeedback.Error error)
 {
-    Console.WriteLine(error.m_RawErrorString);
+    Debug.LogError(error.m_RawErrorString);
 }
 ```
 Send the data     
