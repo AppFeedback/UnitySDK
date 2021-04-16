@@ -18,7 +18,7 @@ request.feedback = "This is your feedback string";
 request.email = "youremail@email.com";
 request.happiness = 10;
 request.version = "1.0.0";
-request.additional_data =
+request.additionalData =
 new Dictionary<string, string>
 {
     {"cpu", "AMD" },
