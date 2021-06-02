@@ -1,8 +1,14 @@
 # UnitySDK
 Unity C# SDK for AppFeedback
 
-Download this repo manually, or use Unity's package manager and add
+Unity's package manager and add
 https://github.com/AppFeedback/UnitySDK.git
+or download manually to get started.
+
+The package manager will also show an option to import samples if you want to get started quickly
+Make sure to update the pproject key in AppFeedbackFormExample.cs before you try and run it.
+
+Please note, not all features are available on basic plans. Uploading images, binary files & logs require Plus or Pro plans.
 
 Once imported do the following
 
@@ -26,7 +32,7 @@ new Dictionary<string, string>
 };
 ```
 
-You can also add these:
+You can also add these to upload images, binary files and logs ( on supported plans ):
 ```c#
 // E.g. read in a screenshot or image to send
 byte[] imageBytes = System.IO.File.ReadAllBytes(@"screenshot.png");
