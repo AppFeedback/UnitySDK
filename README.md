@@ -5,8 +5,9 @@ Unity's package manager and add
 https://github.com/AppFeedback/UnitySDK.git
 or download manually to get started.
 
-The package manager will also show an option to import samples if you want to get started quickly
-Make sure to update the pproject key in AppFeedbackFormExample.cs before you try and run it.
+The package manager will also show an option to import samples if you want to get started quickly.
+
+Make sure to update the project key in AppFeedbackFormExample.cs before you try and run it.
 
 Please note, not all features are available on basic plans. Uploading images, binary files & logs require Plus or Pro plans.
 
