@@ -5,11 +5,19 @@ Unity's package manager and add
 https://github.com/AppFeedback/UnitySDK.git
 or download manually to get started.
 
-The package manager will also show an option to import samples if you want to get started quickly.
+_Please note, not all features are available on basic plans. Uploading images, binary files & logs require Plus or Pro plans._
 
+**Samples:**
+
+The package manager ( Winbdow -> Package Manager ) will also show an option to import samples like so
+![image](https://user-images.githubusercontent.com/8695457/120478663-01136300-c3a5-11eb-8603-fb86ea14b11b.png)
+
+You will have an example form AF_FormExample. Try out the scene to give it ago in action
 Make sure to update the project key in AppFeedbackFormExample.cs before you try and run it.
 
-Please note, not all features are available on basic plans. Uploading images, binary files & logs require Plus or Pro plans.
+![image](https://user-images.githubusercontent.com/8695457/120478534-dcb78680-c3a4-11eb-8690-d654e5f48295.png)
+
+--
 
 Once imported do the following
 
