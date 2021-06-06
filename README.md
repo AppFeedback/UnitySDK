@@ -7,18 +7,30 @@ or download manually to get started.
 
 _Please note, not all features are available on basic plans. Uploading images, binary files & logs require Plus or Pro plans._
 
-**Samples:**
+## .NET Settings
+This SDK only supports .NET 4.x Upwards due to usage of async/await logic
 
-The package manager ( Winbdow -> Package Manager ) will also show an option to import samples like so
+Edit -> Project Settings -> Player -> Api Compatibility Level -> .NET 4.x
+
+For IL2CPP Support, we would recommend using latest 2019 LTS
+
+If you are experiencing issues using other Unity versions, there is a known bug in the IL2CPP compiler which can be manually patched:
+
+[Unity Forum Link](https://forum.unity.com/threads/il2cpp-failing-in-windows-machine.891436/#post-5944052)
+
+## Samples
+The package manager ( Window -> Package Manager ) will also show an option to import samples like so
 ![image](https://user-images.githubusercontent.com/8695457/120478663-01136300-c3a5-11eb-8603-fb86ea14b11b.png)
 
-You will have an example form AF_FormExample. Try out the scene to give it ago in action
+You will have an example prefab form AF_FormExample. 
+
 Make sure to update the project key in AppFeedbackFormExample.cs before you try and run it.
+
+Try out the scene to give it ago in action
 
 ![image](https://user-images.githubusercontent.com/8695457/120478534-dcb78680-c3a4-11eb-8690-d654e5f48295.png)
 
---
-
+## Setup Guide
 Once imported do the following
 
 Initilise the SDK:
