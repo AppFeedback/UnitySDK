@@ -16,7 +16,7 @@ _Please note, not all features are available on basic plans. Uploading images, b
 ## .NET Settings
 This SDK only supports .NET 4.x Upwards due to usage of async/await logic
 
-Edit -> Project Settings -> Player -> Api Compatibility Level -> .NET 4.x
+Edit -> Project Settings -> Player | Other Settings | Configuration ->  Api Compatibility Level -> .NET 4.x
 
 For IL2CPP Support, we would recommend using latest 2019 LTS
 
