@@ -34,7 +34,8 @@ Make sure to update the project key in AppFeedbackFormExample.cs before you try 
 
 Try out the scene to give it ago in action
 
-![image](https://user-images.githubusercontent.com/8695457/120478534-dcb78680-c3a4-11eb-8690-d654e5f48295.png)
+![image](https://user-images.githubusercontent.com/8695457/121954526-c0c5c480-cd56-11eb-858b-0ecfcf36c05e.png)
+
 
 ## Setup Guide
 Once imported do the following
