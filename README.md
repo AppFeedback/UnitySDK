@@ -1,9 +1,15 @@
 # UnitySDK
 Unity C# SDK for AppFeedback
 
-Unity's package manager and add
+Go to Unity's inbuilt package manager ( Window -> Package Manager )
+
+and add ( + Button top left of window -> add package from git url )
+
 https://github.com/AppFeedback/UnitySDK.git
-or download manually to get started.
+
+or download the latest source doe release at
+
+https://github.com/AppFeedback/UnitySDK/releases
 
 _Please note, not all features are available on basic plans. Uploading images, binary files & logs require Plus or Pro plans._
 
