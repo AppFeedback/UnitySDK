@@ -30,6 +30,8 @@ The package manager ( Window -> Package Manager ) will also show an option to im
 
 You will have an example prefab form AF_FormExample. 
 
+There is also an example Scene where you can give this a go, AF_Preview
+
 Make sure to update the project key in AppFeedbackFormExample.cs before you try and run it.
 
 Try out the scene to give it ago in action
