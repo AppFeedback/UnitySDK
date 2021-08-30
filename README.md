@@ -1,6 +1,8 @@
 # UnitySDK
 Unity C# SDK for AppFeedback
 
+Register for an account here: https://my.appfeedback.io/sign-up
+
 Go to Unity's inbuilt package manager ( Window -> Package Manager )
 
 and add ( + Button top left of window -> add package from git url )
